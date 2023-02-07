@@ -1,0 +1,43 @@
+.search{
+    display: flex;
+    .search__container {
+        width: 500px;
+        margin: 0 auto;
+        background-color: transparent;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    h2{
+        width: 500px;
+        color: #fff;
+        text-align: left;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+    input {
+        width: 500px;
+        height: 60px;
+        padding: 12px 24px;
+        background-color: rgba(255, 255, 255, 0.134);
+        font-size: 24px;
+        line-height: 18px;
+        border-radius: 90px;
+        border: 1px solid #ffffff;
+    }
+        
+    input::placeholder {
+        font-weight: 900;
+        color: #fff;
+        letter-spacing: .9px;
+            
+    }
+        
+    input:hover,
+    input:focus {
+        color: rgba(0, 20, 88, 0.87);
+        border: 2px solid rgba(0, 20, 88, 0.87);
+        border-radius: 90px;
+        background-position: 100% center;
+        background-color:transparent;
+    }
+}

@@ -1,0 +1,29 @@
+.header{
+    .container{
+        font-weight: 800;
+        text-transform: uppercase;
+        background-color: aqua;
+        color: black;
+        
+    }
+    .h1{
+        font-size: 40px;
+    }
+    .nav{
+        margin: 0 auto;
+    }
+    .ul{
+        padding: 0 0 50px 0;
+        display: flex;
+        justify-content: center;
+        column-gap: 2rem;
+        
+    }
+    .li{
+        font-size: 25px;
+        list-style: none;
+    }
+    .li :hover{
+        color: aqua;
+    }
+}
