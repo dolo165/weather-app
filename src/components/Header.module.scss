@@ -16,12 +16,15 @@
         padding: 0 0 50px 0;
         display: flex;
         justify-content: center;
+        
         column-gap: 2rem;
         
     }
     .li{
         font-size: 25px;
         list-style: none;
+        display: flex;
+        justify-content: space-around;
     }
     .li :hover{
         color: aqua;

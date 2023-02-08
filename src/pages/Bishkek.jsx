@@ -1,4 +1,5 @@
 import React from "react";
+import module from './Bishkek.module.scss';
 
 function Bishkek () {
     return(
