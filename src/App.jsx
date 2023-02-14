@@ -12,7 +12,6 @@ function App() {
   return (
     
       <div className="app">
-        {/* <Header/>  */}
         <BrowserRouter>
             <Routes>
               <Route path="/" element={<Header/>}>
@@ -24,7 +23,6 @@ function App() {
         <Search weatherState ={weatherState} setWeatherState = {setWeatherState}/>
         <WeatherCard weatherState = {weatherState} setWeatherState = {setWeatherState}/> 
       </div>
-    
   )
 }
 

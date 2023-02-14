@@ -1,5 +1,6 @@
 import React from 'react'
 import module from "./Search.module.scss"
+import WeatherCard from './WeatherCard'
 
 function Search(props) {
     const API_KEY = 'd49a9acd41b8bcc680b4ac1978cbe25d'
@@ -10,6 +11,9 @@ function Search(props) {
         let responce = await fetch(`${URL}?q=${city}&units=metric&cnt=78&appid=${API_KEY}`)
         let data = await responce.json()
         props.setWeatherState(data)
+        if (data.cod == '200'){
+            
+        }
     }
 
     function setCity(event){
